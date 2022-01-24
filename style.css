@@ -38,7 +38,9 @@ body {
     color: #3F87F5;
 }
 
-
+.carousel-item img{
+    width: 100%;
+}
 /* PRECIOUS MOMENT */
 .precious{
     padding-top: 100px!important;

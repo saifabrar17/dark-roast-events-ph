@@ -110,7 +110,13 @@
     .footer-right img{
         width: 25%!important;
     }
-
+    .footer-right ul li{
+        padding-bottom: 10px!important;
+    }
+    .form-inp input {
+        width: 80%!important;
+ 
+        }
     /* color class */
     .color-grey{
         color: #7E848C!important;

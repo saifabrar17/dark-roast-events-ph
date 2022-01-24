@@ -38,14 +38,16 @@ body {
     color: #3F87F5;
 }
 
-.carousel-item img{
+.carousel-item img {
     width: 100%;
 }
+
 /* PRECIOUS MOMENT */
-.precious{
-    padding-top: 100px!important;
+.precious {
+    padding-top: 100px !important;
     padding-bottom: 50px;
 }
+
 .preciuos-btn {
     padding: 10px;
     text-decoration: none;
@@ -57,56 +59,70 @@ body {
     transition: 0.3s all ease-in-out;
     border: 1px solid #3F87F5;
 }
-.preciuos-btn:hover{
+
+.preciuos-btn:hover {
     background-color: white;
     color: #3F87F5;
     border: 1px solid #3F87F5;
 }
-.preciuos-btn i{
+
+.preciuos-btn i {
     padding-left: 10px;
     padding-right: 10px;
 }
 
 
 /* PACKAGE START */
-.cards-list ul li{
-margin-bottom: 3px;
+.cards-list ul li {
+    margin-bottom: 3px;
 
 }
-.cards-list ul li i{
+
+.cards-list ul li i {
     margin-right: 5px;
 }
 
 /* PACKAGE END */
-.card-color{
+.card-color {
     color: #231D4F;
 }
-.card-color-2{
+
+.card-color-2 {
     color: #848199;
 }
-.custom-color{
+
+.custom-color {
     background-color: #3F87F5;
     border-radius: 15px;
-    
+
 }
-.custom-color-white{
+
+.custom-color-white {
     color: white;
 }
 
-.p-btn{
+.p-btn {
     color: #3F87F5;
 }
-.p-btn:hover{
+
+.p-btn:hover {
     color: #3F87F5;
 }
+
 /* footer */
-footer{
+footer {
     background-color: #0B0D17;
     padding-top: 20px;
     padding-bottom: 20px;
     margin-top: 30px;
 }
 
-footer p{
+footer p {
     color: #D9DBE1;
+}
+
+.form-inp input {
+width: 50%;
+display: block!important;
+margin: auto!important;
 }

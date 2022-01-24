@@ -1,22 +1,27 @@
-@media only screen and (max-width: 576px){
-    .carousel-item img{
+@media only screen and (max-width: 576px) {
+    .carousel-item img {
         width: auto;
     }
-    .carousel-caption{
-        display: block;
+
+    .carousel-caption {
+        display: block!important;
     }
+
     /* banner end */
 
-    .p-moment-rr{
+    .p-moment-rr {
         display: flex;
         flex-direction: column-reverse;
     }
-    .preciuos-btn-resp{
+
+    .preciuos-btn-resp {
         display: none;
     }
-    .preciuos-btn-resp-block{
-        display: block!important;
+
+    .preciuos-btn-resp-block {
+        display: block !important;
     }
+
     .preciuos-btn-resp-block {
         padding: 10px;
         text-decoration: none;
@@ -30,22 +35,87 @@
         transition: 0.3s all ease-in-out;
         border: 1px solid #3F87F5;
     }
-    .preciuos-btn-resp-block:hover{
+
+    .preciuos-btn-resp-block:hover {
         background-color: white;
         color: #3F87F5;
         border: 1px solid #3F87F5;
     }
-    .preciuos-btn-resp-block i{
+
+    .preciuos-btn-resp-block i {
         padding-left: 10px;
     }
-    .precious-right{
+
+    .precious-right {
         text-align: center;
     }
-    .precious-left{
+
+    .precious-left {
+        text-align: center !important;
+    }
+
+    .precious-left img {
+        width: 75% !important;
+        text-align: center !important;
+    }
+
+    /* PRECIOUS END */
+
+    .card {
+        margin-left: 15% !important;
+        margin-right: 15% !important;
+        margin-bottom: 30px !important;
+        border-radius: 20px;
+        box-shadow: 0px 0px 16px 3px rgba(0, 0, 0, 0.4);
+        -webkit-box-shadow: 0px 0px 16px 3px rgba(0, 0, 0, 0.4);
+        -moz-box-shadow: 0px 0px 16px 3px rgba(0, 0, 0, 0.4);
+        /* USED BOX SHADOW GENERATOR */
+    }
+
+    /* client */
+    .recent-card {
+        margin-left: 15% !important;
+        margin-right: 15% !important;
+        margin-bottom: 30px !important;
+        border-radius: 20px;
+    }
+
+    /* FAQ */
+    .faq-rr {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .faq-left{
+        margin-left: 7%;
+        margin-right: 7%;
+        padding-top: 50px;
+    }
+    .faq-right {
+        text-align: center !important;
+    }
+    .faq-right img{
+        width: 75% !important;
+       
+    }
+
+    /* footer start */
+    footer{
         text-align: center!important;
     }
-    .precious-left img{
-        width: 75%!important;
-        text-align: center!important;
+     
+    footer .col-sm-5{
+        display: block!important;
+        margin: auto!important;
+    }
+    .footer-right img{
+        width: 25%!important;
+    }
+
+    /* color class */
+    .color-grey{
+        color: #7E848C!important;
+    }
+    .color-grey-d{
+        color: #747474;
     }
 }
